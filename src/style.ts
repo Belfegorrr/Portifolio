@@ -5,6 +5,7 @@ const EstiloGlobal = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -23,6 +24,5 @@ export const Container = styled.div`
   column-gap: 56px;
   img {
     max-width: 100%;
-    display: none;
   }
 `
